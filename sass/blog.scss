@@ -1,0 +1,67 @@
+.blog {
+	margin: 0;
+	padding-top: 7em;
+	//background: #00B4DA url('../img/skills/bg.png') center center no-repeat;
+	background-color: #00B4DA;
+
+	h2 {
+		font-size: 4em;
+		font-family: "raleway";
+		color: #fff;
+		font-weight: 700;
+		text-align: left;
+	
+	}
+
+	h4 {
+		font-size: 2em;
+		font-family: "roboto";
+		color: #fff;
+		font-weight: 700;
+		text-align: left;
+		margin-bottom: 1em;
+	}
+
+
+	ul {
+		list-style-type: none;
+		margin: 5em;
+		display: inline-block;
+		text-align: center;
+		li {
+			display: inline-block;
+			margin: 1em;
+			position: relative;
+			text-align: left;
+
+			.post_caption {
+				background-color: rgba(0,0,0,0.5);
+				width: 350px;
+				height: 320px;
+				position: absolute;
+				top: 0;
+				z-index: 2;
+				transition: all 0.7s ease;
+				opacity: 0;
+				padding: 1em 0;
+				margin: 0 auto;
+				font-family: roboto;
+
+				h3 {  
+					width: 80%; 
+					margin: 1em auto;
+					color: #fff;
+					text-shadow: none;
+					text-transform: uppercase; 
+				}
+				
+				p {
+					width: 80%;
+					margin: 0 auto;
+					color: #fff;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "project 1",
+    "image_url": "img\/portfolio\/350placeholder.png",
+    "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+  },
+  {
+    "name": "project 2",
+    "image_url": "img\/portfolio\/350placeholder.png",
+    "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+  },
+  {
+    "name": "project 3",
+    "image_url": "img\/portfolio\/350placeholder.png",
+    "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+  },
+  {
+    "name": "project 4",
+    "image_url": "img\/portfolio\/350placeholder.png",
+    "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+  },
+  {
+    "name": "project 5",
+    "image_url": "img\/portfolio\/350placeholder.png",
+    "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+  },
+  {
+    "name": "project 6",
+    "image_url": "img\/portfolio\/350placeholder.png",
+    "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+  }
+]

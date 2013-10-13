@@ -1,0 +1,61 @@
+.portfolio {
+	
+	margin: 0;
+	padding-top: 4em;
+	text-align: center;
+
+	h2 {
+		font-size: 4em;
+		font-family: "raleway";
+		color: #000;
+		font-weight: 700;
+		text-align: center;
+		margin: 1em 0;
+	}
+
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 5em;
+		
+		li {
+			display: inline-block;
+			margin: 1em;
+			text-align: left;
+			position: relative;
+
+
+			.portfolio_caption {
+				background-color: rgba(0,0,0,0.5);
+				width: 350px;
+				height: 320px;
+				position: absolute;
+				top: 0;
+				z-index: 2;
+				transition: all 0.7s ease;
+				opacity: 0;
+				padding: 1em 0;
+				margin: 0 auto;
+				font-family: roboto;
+
+				h3 {  
+					width: 80%; 
+					margin: 1em auto;
+					color: #fff;
+					text-shadow: none;
+					text-transform: uppercase; 
+				}
+				
+				p {
+					width: 80%;
+					margin: 0 auto;
+					color: #fff;
+				}
+			}
+		}
+	}
+
+
+
+}

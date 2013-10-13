@@ -1,0 +1,43 @@
+.about {
+	margin: 0;
+	padding:8em 0;
+	background-color: #333;
+	text-align: center;
+
+	h2 {
+		font-size: 4em;
+		font-family: "raleway";
+		color: #fff;
+		font-weight: 700;
+
+	
+	}
+
+	h4 {
+		font-size: 2em;
+		font-family: "roboto";
+		color: #fff;
+		font-weight: 700;
+		margin-bottom: 1em;
+
+		@media screen and (max-width: $break-medium) {
+			font-size: 1.5em;
+		}
+	}
+
+	p {
+		color: #fff;
+		width: 50%;
+		margin: 1em auto;
+		text-align: left;
+		line-height: 1.25em;
+		font-size: 1.1em;
+
+
+		@media screen and (max-width: $break-medium) {
+			width: 80%;
+		}
+
+	}
+
+}

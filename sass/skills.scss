@@ -1,0 +1,72 @@
+.skills {
+	margin: 0;
+	padding-top: 8em;
+	background: #c0c0c0 url('../img/skills/bg.png') center center no-repeat;
+	background-size: cover;
+	background-color: #C0C0C0;
+	z-index: 5;
+
+	@media screen and (max-width: $break-medium) {
+		background-image: none;
+	}
+	
+	h2 {
+		font-size: 4em;
+		font-family: "raleway";
+		color: #fff;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 1em;
+
+	}
+
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 10em;
+
+
+		li {
+			display: inline-block;
+			margin-bottom: 3px;
+			max-width: 20em;
+			padding: 2em;
+			background-color: #fff;
+			border-right: 1px solid #000;
+			border-bottom: 1px solid #000;
+			font-family: Arial;
+			text-align: left;
+			transition: all 0.3s ease;
+			color: #555;
+
+			img {
+				float: left;
+				margin-bottom: 1em;
+			}
+			h3 {
+				font-family: roboto;
+				width: 60%;
+				font-size: 1.2em;
+				line-height: 3em;
+				margin-left: 0.5em;
+				text-align: center;
+				text-shadow: none;
+				float: left;
+				text-transform: uppercase;
+			}
+
+			p {
+				clear: both;
+			}
+			
+			&:hover {
+				background-color: #00B4DA;
+				color: #fff;
+
+			
+			}
+		}
+	}
+	
+}

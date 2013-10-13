@@ -1,0 +1,48 @@
+$break-small: 680px;
+$break-medium: 980px;
+$break-large: 2000px;
+
+@import "compass/reset";
+@import "nav.scss";
+@import "flexslider.scss";
+@import "portfolio.scss";
+@import "skills.scss";
+@import "blog.scss";
+@import "about.scss";
+@import "footer.scss";
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:700|Roboto:700|Sansita+One);
+
+html, body {
+	font-family: Arial;
+                 -webkit-user-select: none;  
+                 -moz-user-select: none;     
+                 -ms-user-select: none;    
+                 -o-user-select: none;
+                 user-select: none; 
+
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; color: #fff;}
+
+
+.wrapper {
+
+}
+
+.container {
+	margin-left: 3.125em;  //50 px left right margin
+	margin-right: 3.125em;  //50 px left right margin
+}
+
+h2, h3, h4 {
+	text-shadow: 0 2px 0 rgba(0,180,218, 0.45);
+}

@@ -1,0 +1,52 @@
+footer {
+	margin: 0;
+	padding: 5em 0 5em 0;
+	background-color: #111;
+
+	ul {
+		text-align: center;
+		
+		li {
+		max-width: 30%;
+		display: inline-block;
+		margin-right: 1.5em;
+		text-align: left;
+			
+			@media screen and (max-width: $break-medium) {
+				max-width: 100%;
+				margin-bottom: 5em;
+				font-size: 1.1em;
+			}
+		}	
+
+	}
+
+	
+	h3 {
+		font-size: 1.5em;
+		font-family: "roboto";
+		color: #fff;
+		font-weight: 700;
+		text-align: left;
+		border-bottom: 1px solid #fff;
+		margin-bottom: 1em;
+	
+	}
+
+	p {
+		color: #fff;
+		font-family: Arial;
+		font-weight: lighter;
+
+		&.muted {
+			color: rgba(255,255,255,0.5);
+			font-size: small;
+
+		}
+	}
+
+	hr {
+		margin-top: 2em;
+	}
+
+}
