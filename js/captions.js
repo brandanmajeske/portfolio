@@ -30,6 +30,8 @@ var showCaptions = function() {
 		setTimeout(function(){
 			$('.portfolio_caption').css('opacity', 0.5);
 			$('.post_caption').css('opacity', 0.5);
-		}, 100);	
+		}, 100);
+
+		$('.mobile_navigation > #nav_home').parent('li').addClass('active');	
 	}
 };

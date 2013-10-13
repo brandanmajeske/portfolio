@@ -3,23 +3,30 @@ var scrollery = function(){
 setTimeout(function(){
 	$('.section').each(function(i) {
 	var position = $(this).position();
-	console.log(position);
-	console.log('min: ' + position.top + ' / max: ' + parseInt(position.top + $(this).height()));
+	
 	$(this).scrollspy({
 		min: position.top,
 		max: position.top + $(this).height() - 50,
 		onEnter: function(element, position) {
-			//if(console) console.log('entering ' +  element.id);
+			
 			var nav_item = $('#nav_'+element.id);
-				$('.main_navigation >li').removeClass('active');
+			var mobile_nav_item = $('#mobile_nav_'+element.id);
+				$('.main_navigation > li').removeClass('active');
+				$('.mobile_navigation > ul > li').removeClass('active');
 				$(nav_item).addClass('active');
+				$(mobile_nav_item).addClass('active');
+
+				console.log(mobile_nav_item);
+
+
 		},
 		onLeave: function(element, position) {
-			if(console) console.log('leaving ' +  element.id);
-		//	$('body').css('background-color','#eee');
+			$('.mobile_navigation > li').removeClass('active');
 		}
 	});
-	});	
+	});
+
+
 }, 500);
 
 };
