@@ -8,7 +8,7 @@ setTimeout(function(){
 
 	 $('.flexslider').append('<div class="welcome_msg"><h1>Hello &amp; <br />Welcome</h1></div>');
 
-	 
+
 },100);
 
  //scrollTo
@@ -26,5 +26,6 @@ getSkills();
 getBlog();
 showCaptions();
 scrollery();
+svgCheck();
 
 }); // end doc ready

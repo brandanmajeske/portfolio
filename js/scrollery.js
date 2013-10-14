@@ -27,6 +27,6 @@ setTimeout(function(){
 	});
 
 
-}, 500);
+}, 600);
 
 };

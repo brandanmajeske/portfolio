@@ -1,32 +1,32 @@
 [
   {
-    "skill_name": "Some Skill Name",
-    "icon_url": "img\/skills\/icon_placeholder.png",
-    "description": "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    "skill_name": "HTML &bull; HTML5",
+    "icon_url": "img\/skills\/html5.svg",
+    "description": "Hyper Text Markup Language; the language of the web. When I became interested in the web, HTML was the first thing I learned. Simply put, HTML tags are what make websites - images, elements, forms, etc., without it this site wouldn't be possible. HTML5 is the latest specification, which is currently still being developed. It's called a 'living standard' meaning it's still evolving."
   },
   {
-    "skill_name": "Some Skill Name",
-    "icon_url": "img\/skills\/icon_placeholder.png",
-    "description": "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    "skill_name": "CSS &bull; CSS3",
+    "icon_url": "img\/skills\/css3.svg",
+    "description": "CSS is designed primarily to enable the separation of document content from document presentation, including elements such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple pages to share formatting, and reduce complexity and repetition."
   },
   {
-    "skill_name": "Some Skill Name",
-    "icon_url": "img\/skills\/icon_placeholder.png",
-    "description": "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    "skill_name": "JavaScript",
+    "icon_url": "img\/skills\/js.svg",
+    "description": "JavaScript is a prototype-based scripting language with dynamic typing and has first-class functions. Its syntax was influenced by C. JavaScript copies many names and naming conventions from Java, but the two languages are otherwise unrelated and have very different semantics. The key design principles within JavaScript are taken from Self and Scheme."
   },
   {
-    "skill_name": "Some Skill Name",
-    "icon_url": "img\/skills\/icon_placeholder.png",
-    "description": "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    "skill_name": "PHP",
+    "icon_url": "img\/skills\/php.svg",
+    "description": "PHP (PHP: Hypertext Preprocessor) is a server-side scripting language designed for web development. PHP code is interpreted by a web server with a PHP processor module, which generates the resulting web page. PHP commands can be embedded directly into an HTML source document rather than calling an external file to process data."
   },
   {
-    "skill_name": "Some Skill Name",
-    "icon_url": "img\/skills\/icon_placeholder.png",
-    "description": "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    "skill_name": "MySQL",
+    "icon_url": "img\/skills\/mysql.svg",
+    "description": "MySQL is a relational database management system (RDBMS). MySQL is a popular choice of database for use in web applications, and is a central component of the widely used LAMP open source web application software stack. LAMP is an acronym for \"Linux, Apache, MySQL, Perl/PHP/Python.\" Projects that require a database often use MySQL."
   },
   {
-    "skill_name": "Some Skill Name",
-    "icon_url": "img\/skills\/icon_placeholder.png",
-    "description": "Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+    "skill_name": "ActionScript 3",
+    "icon_url": "img\/skills\/as3.svg",
+    "description": "ActionScript is an object-oriented language originally developed by Macromedia Inc. It is a dialect of ECMAScript, and is used primarily for the development of websites and software targeting the Adobe Flash Player platform, used on Web pages in the form of embedded SWF files. ActionScript primarily consists of \"simple\" data types which are used to create other data types."
   }
 ]

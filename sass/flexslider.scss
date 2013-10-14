@@ -16,7 +16,9 @@ border-radius: 0;
 -o-box-shadow: none;
 box-shadow: none;
 
-
+	.slides {
+		border-bottom: 1px solid #00B4DA;
+	}
 	.flex-control-nav {
 		display: inline-block;
 		position: absolute;

@@ -1,0 +1,1 @@
+var svgCheck=function(){Modernizr.svg};
