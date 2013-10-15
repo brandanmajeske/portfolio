@@ -1,0 +1,288 @@
+/*  Blue:  #2980b9  
+*   Orange: #f39c12
+*   Silver: #ecf0f1 
+*/
+
+@font-face {
+    font-family: 'duru_sansregular';
+    src: url('../fonts/DuruSans-Regular-webfont.eot');
+    src: url('../fonts/DuruSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DuruSans-Regular-webfont.svg#duru_sansregular') format('svg'),
+         url('../fonts/DuruSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/DuruSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'michromaregular';
+    src: url('../fonts/Michroma-webfont.eot');
+    src: url('../fonts/Michroma-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Michroma-webfont.svg#michromaregular') format('svg'),
+         url('../fonts/Michroma-webfont.woff') format('woff'),
+         url('../fonts/Michroma-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ptsans';
+    src: url('../fonts/ptsans.eot');
+    src: url('../fonts/ptsans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans.svg#ptsans') format('svg'),
+         url('../fonts/ptsans.woff') format('woff'),
+         url('../fonts/ptsans.ttf') format('truetype');  
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*========= Logo =========*/
+
+.sylvania-logo {
+
+  color: #f39c12;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 1.35em;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+html,
+body {
+  min-height: 101%;
+  /* The html and body elements cannot have any padding or margin. */
+    font-family: "duru_sansregular";
+  
+}
+
+h2 {
+  color: #95a5a6;
+  font-family: "duru_sansregular";
+  font-size: 1.75em;
+}
+h3 {
+  color: #2980b9;
+  font-family: "duru_sansregular";
+  font-size: 1.65em;
+  font-weight: bold;
+}
+
+h4{
+  color: #2c3e50;
+  font-family: "duru_sansregular";
+  font-size: 1.2em;
+}
+
+a:focus {
+  outline: 0;
+}
+
+.navbar {
+  background-color: #2980b9;
+  border-radius: 0;
+
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  font-family: "michromaregular";
+  font-size:  1em;
+}
+
+.navbar-nav > li > a:hover {
+  color: #95a5a6;
+  color: rgba(255,255,255, 0.4);
+}
+
+.navbar-brand {
+  color: #fff!important;
+  color: rgba(255,255,255, 0.4);
+  font-family: "michromaregular";
+  font-size: 1.05em;
+}
+
+.navbar-brand:hover {
+  color: #95a5a6;
+  color: rgba(255,255,255, 0.8);
+}
+
+/* Wrapper for page content to push down footer */
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+.content {
+  margin-bottom: 60px;
+
+}
+
+
+/* Set the fixed height of the footer here */
+.push,
+footer {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+footer {
+  background-color: #2980b9;
+}
+
+footer a{
+  font-family: "duru_sansregular";
+  color: #fff;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.credit.text-muted{
+  color: #fff;
+  font-family: "ptsans";
+  color: rgba(255,255,255, 0.4);
+  font-size: .85em;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 960px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+
+/*----------------------------  Live Search ------------------------*/
+
+.live_search {
+  margin-top: 60px;
+
+}
+
+.live_search ul{
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  margin: 0;
+  background-color: #f5f5f5;
+  background-color: rgba(0,0,0,.0175);
+  border-radius: 3px;
+  border: 1px solid rgba(15,15,15,.25);
+}
+
+.live_search ul li{
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px dotted  #2980b9;
+  border-bottom: 2px dotted rgba(0,0,0,0.30);
+}
+
+.live_search ul li:last-child
+{
+border-bottom: none;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+input[type="text"]:focus.invalid {
+border-color: rgba(255, 0, 0, 0.35);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.035) inset, 0 0 8px rgba(255, 0, 0, 0.4);
+outline: 0 none;
+}
+
+.glyphicon-question-sign{
+  font-size: medium;
+}
+
+.special_note {
+  color: #8e44ad;
+}
+
+/*----------------------------  admin Search ------------------------*/
+
+.admin_search {
+  margin-top: 0px;
+
+}
+
+.admin_search ul{
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+  margin: 0;
+  background-color: #f5f5f5;
+  background-color: rgba(0,0,0,.0175);
+  border-radius: 3px;
+  border: 1px solid rgba(15,15,15,.25);
+}
+
+.admin_search ul li{
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px dotted rgba(0,0,0,.25);
+}
+
+.admin_search ul li:last-child {
+border-bottom: none;
+}
+
+/*========= Edit Table Styles =========*/
+
+thead {
+  background-color: #ecf0f1;
+  color: #333;
+  font-weight: bold;
+}
+
+.table-data {
+  cursor: pointer;
+  color: #2A6496;
+}
+
+.table-data-input {
+  display: none;
+}
+
+.table-data .add-table-data-input {
+  text-decoration: none!important;
+}
+

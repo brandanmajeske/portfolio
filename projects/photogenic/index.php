@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Brandan Majeske">
+  <!-- Date: 2012-09-19 -->
+
+ <title>PhotoGenic | Search Flickr Images </title>
+  <meta name="description" content="Photogenic, an AIR application to search for images on Flickr web servers" />
+  <meta name="author" content="Brandan Majeske" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script type='text/javascript' src='js/swfobject.js'></script>
+  <script type='text/javascript' src='js/badgeInstall.js'></script>
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/tooltip.js"></script>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>	
+</head>
+
+<body>
+<div id="container">
+    <div id="logo"><a href="#">logo link</a></div>
+    <div class="content">
+    
+    <h2 id="description"><img src="images/air64.png" id="air_icon" alt="Adobe AIR icon" /> An AIR Application</h2>
+    <h3>Photos make up a large part of the web. PhotoGenic is a great way to view them! <br /> <img src="images/screenshot.png" id="screenshot" alt="screen shot" /> </h3>
+    	<aside>
+    	<div id='badge_div'>
+			    To install this application you will need the <a href='http://www.adobe.com/products/flashplayer/' target="_blank" >Adobe Flash Player</a></div>
+		
+			<p id="alt_download">If download doesn't begin within 30 seconds <br />click <a href="http://get.adobe.com/air/" target="_blank">here</a> to install AIR, then <a href="http://brandanmajeske.com/photogenic/install/PhotoGenic.air" target="_blank">here</a> to install PhotoGenic.<p>
+			<p>PhotoGenic is an <a href="http://get.adobe.com/air/" target="_blank" data-tip-type="html" data-tip-source="tooltip-sidebar"  class="tooltip">AIR</a> desktop application created for Photography enthusiasts of all ages. The world-famous photo hosting web site, Flickr, consists of a vast archive of millions of images that are uploaded by <a href="http://www.flickr.com/" target="_blank" data-tip-type="text" data-tip-source="Flickr has 51 million registered members!" class="tooltip">Flickr</a> users from all around the world. PhotoGenic aims to enable any user, not just
+registered Flickr users, to be able to browse the various categories of images hosted on the Flickr web
+servers without requiring the use of a web browser.</p>
+		</aside>
+<p>To use PhotoGenic, simply enter a <a href="#" data-tip-type="text" data-tip-source="A tag is a keyword or category search term." class="tooltip">tag</a> in the search field and images are loaded from the Flickr web servers. Browse through page after page of image thumbnails. If you see an image you like and want to take a closer look, click on a the thumbnail. Your web browser will open a larger version of the image. It's that easy!</p>
+    
+    </div>
+    <footer>
+     <p>Copyright &copy; 2012 - <?php echo date('Y');?> &middot; Brandan Majeske</p>
+     
+     <h6>DISCLAIMER: THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</h6>
+    </footer>
+    
+    <div id="tooltip_container">This is my tooltip</div>
+    
+    
+    <div class="tooltip-html-source">
+				<div id="tooltip-sidebar">
+					<img src="images/air64.png" alt="Adobe AIR icon" style="float:left; margin-right: 5px;" />The <strong><em style="color: #AF211C;">Adobe AIR </em></strong>runtime enables developers to use HTML, JavaScript, Adobe Flash® software, and ActionScript® to build web applications that run as standalone client applications without the constraints of a browser.
+					<div class="clear-all"></div>
+				</div>
+    </div>    
+</div><!-- end container -->
+</body>
+</html>
