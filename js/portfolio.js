@@ -14,12 +14,12 @@ var getPortfolio = function(){
 					
 					$.each(data, function(key, val){
 						output += '<li class="portfolio_item">';
-						output += '<img src="'+val.image_url+'"/>';
+						output += '<a href="'+val.project_url+'" target="_blank"><img src="'+val.image_url+'"/>';
 						output += '<div class="portfolio_caption">';
 						output += '<h3>'+val.name+'</h3>';
 						output += '<p>'+val.description+'</p>';
 						output += '</div>';
-						output += '</li>';
+						output += '</a></li>';
 					});
 
 				output += '</ul>';

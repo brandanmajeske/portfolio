@@ -17,7 +17,7 @@ border-radius: 0;
 box-shadow: none;
 
 	.slides {
-		border-bottom: 1px solid #00B4DA;
+		border-bottom: 1px solid $lightblue;
 	}
 	.flex-control-nav {
 		display: inline-block;
@@ -45,13 +45,13 @@ box-shadow: none;
 	}
 
 	.flex-control-paging li a.flex-active {
-		background: #00B4DA;
+		background: $lightblue;
 		background: rgba(0,180,218,0.75);
-		border: 1px solid #00B4DA;
+		border: 1px solid $lightblue;
 	}
 
 	.flex-direction-nav a {
-		color: #00B4DA;
+		color: $lightblue;
 		color: rgba(0,180,218,0.75);
 		text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
 	}
@@ -67,7 +67,7 @@ box-shadow: none;
 		font-family: "raleway", sans-serif;
 		font-weight: 700;
 		text-align: right;
-		text-shadow: 0 2px 0 #00B4DA;
+		text-shadow: 0 2px 0 $lightblue;
 		border-bottom: 2px solid #000;
 		padding-left: 0.5em;
 		  -webkit-user-select: none;  

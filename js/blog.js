@@ -14,10 +14,10 @@ var getBlog = function() {
 				
 				$.each(data, function(key, val){
 					output += '<li class="blog_post">';
-					output += '<a href="'+val.post_url+val.post_id+'"><img src="'+val.post_image_url+'"/>';
+					output += '<a href="blog/'+val.post_url+val.post_id+'"><img src="'+val.post_image_url+'"/>';
 					output += '<div class="post_caption">';
 					output += '<h3>'+val.post_title+'</h3>';
-					output += '<p>'+val.lead_in+'</p>';
+					output += '<p>'+val.post_lead_in+'</p>';
 					output += '</div>';
 					output += '</a></li>';
 				});

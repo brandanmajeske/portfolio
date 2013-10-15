@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:700|Roboto:700|Sansita+One);
+@import url(http:\/\/fonts.googleapis.com/css?family=Raleway:700|Roboto:700|Sansita+One);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -73,7 +73,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     text-decoration: underline;
     text-transform: uppercase;
     font-family: Raleway;
-    font-weight: 700; }
+    font-weight: 700;
+    color: #00b4da; }
   @media screen and (max-width: 980px) {
     .nav {
       text-align: center;
@@ -87,7 +88,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     text-decoration: none;
     font-size: 2em;
     font-family: "Sansita One", san-serif;
-    text-shadow: 0 1px 0 #00B4DA; }
+    text-shadow: 0 1px 0 #00b4da; }
     @media screen and (max-width: 980px) {
       .nav .logo {
         padding-bottom: 0.5em; } }
@@ -107,7 +108,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
           display: block;
           width: 100%;
           border-bottom: 1px solid #fff;
-          padding-left: 0.25em; } }
+          padding-left: 0.25em; }
+          .nav .mobile_navigation li.active {
+            border-bottom: 1px solid #00b4da; } }
   @media screen and (max-width: 980px) {
     .nav .main_navigation {
       display: none; } }
@@ -127,7 +130,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
       border-bottom: 1px solid black;
       transition: all 0.5s ease; }
       .nav ul li.active {
-        border-bottom: 5px solid #00B4DA; }
+        border-bottom: 5px solid #00b4da; }
       .nav ul li a {
         text-decoration: none;
         color: #fff; }
@@ -149,7 +152,7 @@ $break-large: 1200px; */
   -o-box-shadow: none;
   box-shadow: none; }
   .flexslider .slides {
-    border-bottom: 1px solid #00B4DA; }
+    border-bottom: 1px solid #00b4da; }
   .flexslider .flex-control-nav {
     display: inline-block;
     position: absolute;
@@ -172,11 +175,11 @@ $break-large: 1200px; */
     -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
   .flexslider .flex-control-paging li a.flex-active {
-    background: #00B4DA;
+    background: #00b4da;
     background: rgba(0, 180, 218, 0.75);
-    border: 1px solid #00B4DA; }
+    border: 1px solid #00b4da; }
   .flexslider .flex-direction-nav a {
-    color: #00B4DA;
+    color: #00b4da;
     color: rgba(0, 180, 218, 0.75);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
   .flexslider .welcome_msg h1 {
@@ -189,7 +192,7 @@ $break-large: 1200px; */
     font-family: "raleway", sans-serif;
     font-weight: 700;
     text-align: right;
-    text-shadow: 0 2px 0 #00B4DA;
+    text-shadow: 0 2px 0 #00b4da;
     border-bottom: 2px solid #000;
     padding-left: 0.5em;
     -webkit-user-select: none;
@@ -305,13 +308,36 @@ $break-large: 1200px; */
       .skills ul li p {
         clear: both; }
       .skills ul li:hover {
-        background-color: #00B4DA;
+        background-color: #00b4da;
         color: #fff; }
+
+.single_post {
+  max-width: 80%;
+  min-height: 35em;
+  margin: 10em auto; }
+  .single_post h2 {
+    font-size: 4em;
+    font-family: "raleway";
+    color: #111;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0.5em; }
+  .single_post img {
+    float: left;
+    margin: 0 1em; }
+    @media screen and (max-width: 980px) {
+      .single_post img {
+        float: none;
+        margin: 1em 0;
+        width: 100%; } }
+  .single_post p {
+    font-size: 1.2em;
+    color: #111; }
 
 .blog {
   margin: 0;
   padding-top: 7em;
-  background-color: #00B4DA; }
+  background-color: #00b4da; }
   .blog h2 {
     font-size: 4em;
     font-family: "raleway";
@@ -389,6 +415,7 @@ $break-large: 1200px; */
         width: 80%; } }
 
 footer {
+  bottom: 0;
   margin: 0;
   padding: 5em 0 5em 0;
   background-color: #111; }
@@ -441,6 +468,25 @@ html, body {
 .clearfix {
   display: inline-block;
   color: #fff; }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: white url("../img/giant_loader.gif") center center no-repeat;
+  z-index: 900;
+  text-align: center; }
+
+.overlay::after {
+  display: inline-block;
+  content: "Hang in there, it's loading!";
+  font-size: 3em;
+  color: #222;
+  margin-top: 5%;
+  font-faily: sans-serif;
+  font-family: monospace; }
 
 .container {
   margin-left: 3.125em;

@@ -1,6 +1,8 @@
 $break-small: 680px;
 $break-medium: 980px;
 $break-large: 2000px;
+$lightblue: #00B4DA;
+
 
 @import "compass/reset";
 @import "nav.scss";
@@ -11,7 +13,7 @@ $break-large: 2000px;
 @import "about.scss";
 @import "footer.scss";
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:700|Roboto:700|Sansita+One);
+@import url(http:\/\/fonts.googleapis.com/css?family=Raleway:700|Roboto:700|Sansita+One);
 
 html, body {
 	font-family: Arial;
@@ -34,7 +36,24 @@ html, body {
 .clearfix { display: inline-block; color: #fff;}
 
 
-.wrapper {
+.overlay {
+    position: fixed;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #fff url('../img/giant_loader.gif') center center no-repeat;
+    z-index: 900;
+    text-align: center;
+}
+.overlay::after {
+    display: inline-block;
+    content: "Hang in there, it's loading!";
+    font-size: 3em;
+    color: #222;
+    margin-top: 5%;
+    font-faily: sans-serif;
+    font-family: monospace;
 
 }
 

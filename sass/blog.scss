@@ -1,8 +1,47 @@
+.single_post {
+
+
+	max-width: 80%;
+	min-height: 35em;
+	margin: 10em auto;
+
+	h2 {
+		font-size: 4em;
+		font-family: "raleway";
+		color: #111;
+		font-weight: 700;
+		text-align: left;
+		margin-bottom: 0.5em;
+	
+	}
+
+	img {
+		float: left;
+		margin:  0 1em;
+
+		
+		@media screen and (max-width: $break-medium) {
+			float: none;
+			margin: 1em 0;
+			width: 100%;
+		}
+	}
+
+	p {
+		font-size: 1.2em;
+		color: #111;
+	}
+
+
+	
+
+	} // end single post
+
+
 .blog {
 	margin: 0;
 	padding-top: 7em;
-	//background: #00B4DA url('../img/skills/bg.png') center center no-repeat;
-	background-color: #00B4DA;
+	background-color: $lightblue;;
 
 	h2 {
 		font-size: 4em;

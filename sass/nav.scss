@@ -28,6 +28,7 @@
 		text-transform: uppercase;
 		font-family: Raleway;
 		font-weight: 700;
+		color: $lightblue;
 	}
 
 	@media screen and (max-width: $break-medium) {
@@ -44,7 +45,7 @@
 		text-decoration: none;
 		font-size: 2em;
 		font-family: "Sansita One", san-serif;
-		text-shadow: 0 1px 0 #00B4DA;
+		text-shadow: 0 1px 0 $lightblue;
 
 		@media screen and (max-width: $break-medium) {
 			padding-bottom: 0.5em;
@@ -69,7 +70,11 @@
 				display: block;
 				width: 100%;
 				border-bottom: 1px solid #fff;
-				padding-left: 0.25em;;
+				padding-left: 0.25em;
+
+				&.active {
+					border-bottom: 1px solid $lightblue;
+				}
 			}
     		}
 	}
@@ -97,7 +102,7 @@
 			transition:  all 0.5s ease;
 
 			&.active {
-				border-bottom: 5px solid #00B4DA;
+				border-bottom: 5px solid $lightblue;
 			}
 
 			a {

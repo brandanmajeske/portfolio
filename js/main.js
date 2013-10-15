@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+var overlay = $('.overlay');
+setTimeout(function(){
+	overlay.fadeOut(1000);
+}, 1000);
 
 setTimeout(function(){
 	 $('.flexslider').flexslider({
@@ -9,7 +13,7 @@ setTimeout(function(){
 	 $('.flexslider').append('<div class="welcome_msg"><h1>Hello &amp; <br />Welcome</h1></div>');
 
 
-},100);
+},200);
 
  //scrollTo
  $('.main_navigation > li > a').click(function(e){
